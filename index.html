@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>For You 💛</title>
+  <title>💛 Para vos</title>
 
   <style>
     * { box-sizing: border-box; }
@@ -71,13 +71,6 @@
       display: block;
     }
 
-    .fallback {
-      padding: 20px;
-      font-size: 14px;
-      opacity: .85;
-      line-height: 1.4;
-    }
-
     .footer {
       margin-top: 12px;
       font-size: 12px;
@@ -88,31 +81,25 @@
 
 <body>
   <div class="container">
-    <div class="hint">Tap the card 💛</div>
+    <div class="hint">Tocá la carta 💛</div>
 
     <div class="scene">
       <div class="card" id="card">
+        
         <!-- FRONT -->
         <div class="face front">
-          <img
-            src="20260208_002506.jpg"
-            alt="Front"
-            onerror="this.outerHTML='<div class=&quot;fallback&quot;>Front image not loading.<br/>Use a direct Imgur image link.</div>'"
-          />
+          <img src="Front.jpg" alt="Front">
         </div>
 
         <!-- BACK -->
         <div class="face back">
-          <img
-            src="20260208_002513.jpg"
-            alt="Back"
-            onerror="this.outerHTML='<div class=&quot;fallback&quot;>Back image not loading.<br/>Use a direct Imgur image link.</div>'"
-          />
+          <img src="Back.jpg" alt="Back">
         </div>
+
       </div>
     </div>
 
-    <div class="footer">Made with 💛</div>
+    <div class="footer">Hecho con 💛</div>
   </div>
 
   <script>
